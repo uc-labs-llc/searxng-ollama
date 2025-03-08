@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #FFD700; /* Yellow */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Search Form */
+#searchForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#searchForm input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #FFD700;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+#searchForm button {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    border: 2px solid #FFD700;
+    border-radius: 0 5px 5px 0;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchForm button:hover {
+    background-color: #e6b800;
+}
+
+/* Results Section */
+#results {
+    margin-top: 20px;
+}
+
+.result {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.result a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.result a:hover {
+    color: #e6b800;
+}
+
+.result p {
+    margin: 10px 0 0;
+    color: #ccc;
+}
+
+/* Error and No Results Messages */
+.error, .no-results {
+    text-align: center;
+    color: #ff4d4d;
+    font-size: 1.2rem;
+}
+
+.no-results {
+    color: #FFD700;
+}
